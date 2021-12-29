@@ -2,5 +2,6 @@
 
 int Perimetr(int a, int b)
 {
-    return 2 * Perimetr(a, b);
+    return 2 * (a + b);
 }
+Console.WriteLine(Perimetr(4,5));
